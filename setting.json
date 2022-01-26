@@ -74,6 +74,19 @@
       "data-attribute":[
         {
           "name-attribute":"name",
+          "value-attribute":"google-site-verification"
+        },
+        {
+          "name-attribute":"content",
+          "value-attribute":"JgRtGb6V8R16Ai9naw9Ccil4V70uILGnaX92iUlmCzc"
+        }
+      ],
+  "inject-element-head":[
+    {
+      "name-element":"meta",
+      "data-attribute":[
+        {
+          "name-attribute":"name",
           "value-attribute":"viewport"
         },
         {
