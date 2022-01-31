@@ -1,8 +1,8 @@
 {
-  "name-web":"VizBlog",
-  "author":"Rythm Zero",
+  "name-web":"RYTHM ZERO",
+  "author":"HERO",
   "remove-comment-html":true,
-  "target":"https://m.tribunnews.com",
+  "target":"https://www.tribunnews.com",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "script",
@@ -16,24 +16,12 @@
     ".js-dismissable-hero",
     ".js-sidebar-zone",
     "#teams-promo",
-    ".quickedit"
+    ".quickedit",
+    ".bggrey"
   ],
   "costom-element-remove":[
     {
-      "target":"stackoverflow.com",
-      "element-remove-selector":[
-        ".js-dismissable-hero",
-        ".lazy-loading"
-      ],
-      "replace-string":[
-        {
-          "target":"https://stackoverflow.com",
-          "replace":"${nameWeb}"
-        }
-      ]
-    },
-    {
-      "target":"m.tribunnews.com",
+      "target":"www.tribunnews.com",
       "element-remove-selector":[
         ".baca",
         ".op-interactive",
@@ -44,26 +32,13 @@
         ".box__reserved.mh60.sticky",
         ".box__reserved.ivideo_box",
         ".box__reserved.fb_box.ac.mb20.bgwhite.bdr.facebook",
-        ".box__reserved.mh10"
-      ],
-      "replace-string":[]
-    },
-    {
-      "target":"www.itb.ac.id",
-      "element-remove-selector":[
-        ".box-header",
-        ".box-language",
-        ".section-10",
-        ".sidebar.active"
-      ],
-      "replace-string":[]
-    },
-    {
-      "target":"repositori.usu.ac.id",
-      "element-remove-selector":[
-        "header",
-        ".trail-wrapper",
-        "footer"
+        ".box__reserved.mh10",
+        ".box__reserved.ads_box_1_1",
+        ".box__reserved.ads_box_2_2.sticky.mb20",
+        ".box__reserved.ads_box_5.mb15.art-list.pos_rel.nativeads",
+        ".box__reserved.ads_box_5.p1520.art-list.pos_rel",
+        ".box__reserved.ads_box_3.sticky",
+        ".box__reserved.ads_box_5.mb20"
       ],
       "replace-string":[]
     }
